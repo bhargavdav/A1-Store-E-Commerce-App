@@ -1,25 +1,58 @@
-# CakePHP 3
+# Composer dependencies
+/vendor/
 
-/vendor/*
-/config/app.php
+# Environment variables
+.env
+.env.local
+.env.production
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Logs
+logs/
+*.log
+email_logs.txt
 
-/logs/*
-!/logs/empty
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# CakePHP 2
+# OS generated files
+Thumbs.db
+.DS_Store
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Database dumps and backups
+*.sql
+*.sqlite
+*.db
+
+# Cache and temporary files
+cache/
+tmp/
+temp/
+
+# Node.js (if used)
+node_modules/
+
+# PHP sessions and runtime files
+session/
+*.php~
+
+# Build outputs
+dist/
+build/
+
+# Sensitive configuration files
+config.php
+connect.php
+
+# Testing & tooling
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Backups
+*.bak
+*.backup
+*.old
+*.orig
+
